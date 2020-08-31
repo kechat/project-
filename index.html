@@ -21,12 +21,23 @@
 <td> bettoni</td>
 <td>pintus</td>
 <td>dupont</td>
-
-
-
-
 </tr>
-
 </table>
+<h3>la liste mode formulaire</h3>
+<form method="post" enctype="multipart/form-data">
+    <label>nom</label>
+    <input type="text" name="name" id="name" /><br/>
+    <label>prenom</label>
+    <input type="text" name="prenom" value=""/><br>
+    <label>sexe</label><br>
+    <label>homme</label>
+    <input type="radio" name="sexe" value="homme"/><br>
+    <label>femme</label>
+    <input type="radio" name="sexe" value="femme"/><br>
+    <label>ecrivez un commentaire</label><br>
+    <textarea rows="5" cols="20" name commentaire></textarea>
+    <input type="submit" value="send"/><br />
+
+</form>
 </body>
 </html>
